@@ -1,0 +1,4 @@
+interface:
+  display_name: "Skill for Skills"
+  short_description: "自动发现、匹配并加载最适合当前任务的本地 Skills"
+  default_prompt: "Use $skill-for-skills to select and load the best local Skills for this task."
