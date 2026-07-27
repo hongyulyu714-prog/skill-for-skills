@@ -1,0 +1,25 @@
+{
+  "name": "skill-for-skills",
+  "version": "0.1.0",
+  "description": "Automatically discovers, ranks, and loads the best local Skills for an Agent task.",
+  "author": {
+    "name": "lvhongyu04"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Skill for Skills",
+    "shortDescription": "Automatically route tasks to the best local Skills.",
+    "longDescription": "Scans compatible local Skill directories, ranks installed Skills against the current task, and gives the Agent an ordered route with local SKILL.md paths.",
+    "developerName": "lvhongyu04",
+    "category": "Productivity",
+    "capabilities": [
+      "Local Skill discovery",
+      "Task routing",
+      "Read-only scanning"
+    ],
+    "defaultPrompt": [
+      "Find and load the best local Skills for this task.",
+      "Show me which Skills should handle this request."
+    ]
+  }
+}
