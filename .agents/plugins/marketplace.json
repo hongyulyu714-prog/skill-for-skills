@@ -1,0 +1,20 @@
+{
+  "name": "skill-for-skills",
+  "interface": {
+    "displayName": "Skill for Skills"
+  },
+  "plugins": [
+    {
+      "name": "skill-for-skills",
+      "source": {
+        "source": "local",
+        "path": "./plugins/skill-for-skills"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
